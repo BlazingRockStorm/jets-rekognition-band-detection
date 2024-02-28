@@ -6,6 +6,9 @@ gem "sprockets-jets"
 
 gem "importmap-jets"
 gem "zeitwerk", ">= 2.6.12"
+# Use Slim
+gem 'html2slim'
+gem 'slim-rails'
 
 # development and test groups are not bundled as part of the deployment
 group :development, :test do
